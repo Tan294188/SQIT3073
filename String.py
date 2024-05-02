@@ -34,5 +34,3 @@ print("Does the message contain 'Bye'? ", contains_Bye)
 # Replace part of the string
 new_message = greeting.replace("Hello", "Bye")
 print("Updated message:", new_message)
-
-# Copy from by Dr Aamir Adeeb
