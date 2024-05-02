@@ -14,10 +14,10 @@ print("Your name length is",Lengthname)
 contains_space=" "in name
 if contains_space==1:
     Find= name.find(" ")
-    Fname=""
+    Lname=""
     for i in range (0,Find):
-        Lname=Fname+name[i]
-    print("Your last name is ",Lname)    
+        Lname=Lname+name[i]
+    print("Your last name is ",Lname)
 
 # Concatenate (combine) two strings
 greeting = "Hello, " + name + "!"
